@@ -1,10 +1,61 @@
 body {
   background-color: #fff;
   margin: 0 auto;
-  font-family: 'Quicksand',sans-serif;
+  font-family: 'Varela Round','Quicksand',sans-serif;
+  max-width: 1200px;
+  padding: 0 12px;
+  color: #212529;
 }
 
+header{
+  padding-top: 12px;
+  text-align: center;
+}
 
 .header-title {
   font-weight:600;
+  font-size: 22px;
+  color: #212529;
+  text-decoration: none;
 }
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline;
+  padding: 12px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Quicksand','Varela Round',sans-serif; 
+}
+
+h1 {
+  text-align: center;
+  margin: 32px;
+}
+
+.solid{
+  margin: 32px;
+}
+
+.disclaimer-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
