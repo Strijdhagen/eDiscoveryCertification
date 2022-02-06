@@ -126,7 +126,9 @@ p{
 .cert-intro,
 .cert-overview,
 .cert-list,
-.relspecreqs {
+.relspecreqs,
+.cert-containerrel,
+.cert-containerreltraining {
  border-style:solid;
  background-color: #f4f4f4;
  border-color: #4054B2;
@@ -197,10 +199,18 @@ p{
 .certspeccontainers {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .certspeccontainers > * {
-  flex: 0 1 50%;
+  flex: 0 1 45%;
+}
+
+.cert-containerrel,
+.cert-containerreltraining{
+  margin: 4px;
+  padding: 1rem;
 }
 
 
