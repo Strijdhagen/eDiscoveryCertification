@@ -79,10 +79,24 @@ p{
   text-align: center;
 }
 
+.certifications{
+  display: flex;
+}
+
+.independent-certs,
+.vendor-certs{
+  height: 100%;
+  padding: 2% 4%;
+  margin-right: 0.5rem;
+  width: 50%;
+}
+
 .cert-container{
   display: flex;
 }
 
+.independent-certs,
+.vendor-certs,
 .cert-intro,
 .cert-overview,
 .cert-list{
