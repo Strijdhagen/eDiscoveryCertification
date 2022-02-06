@@ -125,7 +125,8 @@ p{
 .vendor-certs,
 .cert-intro,
 .cert-overview,
-.cert-list{
+.cert-list,
+.relspecreqs {
  border-style:solid;
  background-color: #f4f4f4;
  border-color: #4054B2;
@@ -181,9 +182,36 @@ p{
   font-weight: 500;
 }
 
+.relspecialist{
+  font-size: 1.5rem;
+}
+
+.relspecreqs{
+  padding: 0 2%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  max-width: 60%;
+  margin: auto
+}
+
+.certspeccontainers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certspeccontainers > * {
+  flex: 0 1 50%;
+}
+
+
+
 @media screen and (max-width:700px) {
   .cert-container { 
     flex-wrap: wrap; 
+  }
+
+  .relspecreqs {
+    max-width: 100%;
   }
 
   .cert-intro{
