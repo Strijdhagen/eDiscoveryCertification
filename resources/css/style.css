@@ -105,24 +105,61 @@ p{
   text-align: center;
 }
 
-.certifications{
-  display: flex;
-}
-
 .independent-certs,
 .vendor-certs{
   height: 100%;
-  padding: 2% 4%;
-  margin-right: 0.5rem;
-  width: 50%;
+  padding: 2% 1%;
 }
+
+.independent-certs,
+.vendor-certs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.independent-certs > *  {
+  flex: 1 1 46%;
+}
+.vendor-certs > * {
+  flex: 1 1 28%;
+}
+
+.vendor-certscert,
+.independent-certscert {
+  border-style:solid;
+  background-color: #f4f4f4;
+  border-color: #4054B2;
+  border-width: 0.5px; 
+  margin: 4px;
+  padding: 1rem;
+}
+
+.vendor-certs img,
+.independent-certs img {
+  width: 50px;
+  margin-right: 0.5rem;
+  border-style: solid;
+  border-width: 0.25px;
+  border-color: #c2c2c2;
+}
+
+.vendor-certscert a,
+.independent-certscert a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #212529;
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+}
+
 
 .cert-container{
   display: flex;
 }
 
-.independent-certs,
-.vendor-certs,
+
 .cert-intro,
 .cert-overview,
 .cert-list,
@@ -231,8 +268,10 @@ p{
     width: 100%;
   }
 
+  .independent-certs > *,
+  .vendor-certs > *,
   .certspeccontainers > * {
-    flex: 0 1 100%;
+    flex: 1 1 100%;
   }
 
   .vendor-certs,
