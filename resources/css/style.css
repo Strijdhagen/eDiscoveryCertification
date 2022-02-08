@@ -137,6 +137,7 @@ p{
 
 .vendor-certs img,
 .independent-certs img {
+  height: auto;
   width: 50px;
   margin-right: 0.5rem;
   border-style: solid;
