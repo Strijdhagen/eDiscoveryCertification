@@ -109,6 +109,7 @@ p{
 .vendor-certs{
   height: 100%;
   padding: 2% 1%;
+  
 }
 
 .independent-certs,
@@ -122,7 +123,7 @@ p{
   flex: 1 1 46%;
 }
 .vendor-certs > * {
-  flex: 1 1 28%;
+  flex: 0 0 29.7%;
 }
 
 .vendor-certscert,
@@ -261,7 +262,7 @@ text-align: center;
 margin: 1rem;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
   .certifications,
   .cert-container { 
     flex-wrap: wrap; 
